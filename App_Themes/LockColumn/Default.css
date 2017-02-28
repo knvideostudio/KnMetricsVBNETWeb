@@ -1,0 +1,81 @@
+﻿
+a 
+{
+}
+        
+.grid
+{
+   font : 10px Verdana, Arial, Sans-Serif;
+}
+        
+.grid td, .grid th
+{
+    padding: 2px;
+}
+        
+.header
+{
+   text-align : left;
+   color : white;
+   background : #B3B3FF;
+}
+        
+.row td
+{
+   border-bottom : solid 1px blue;
+}
+        
+.alternating
+{
+   background-color : #eeeeee;
+}
+
+.alternating td
+{
+    border-bottom : solid 1px blue;
+}        
+
+div#tbl-container {
+width: 418px;
+height: 252px;
+overflow: auto;
+scrollbar-base-color:#ffeaff;
+}
+
+table {
+table-layout: fixed;
+border-collapse: collapse;
+background-color: WhiteSmoke;
+}
+
+div#tbl-container table th {
+width: 100px;
+}
+
+thead th, thead th.locked	{
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+background-color: navy;
+color: white;
+border-right: 1px solid silver;
+position:relative;
+cursor: default; 
+}
+	
+thead th {
+top: expression(document.getElementById("tbl-container").scrollTop-2);
+z-index: 20;
+}
+
+thead th.locked {z-index: 30;}
+
+td.locked,  th.locked{
+background-color: #ffeaff;
+font-weight: bold;
+border-right: 1px solid silver;
+left: expression(parentNode.parentNode.parentNode.parentNode.scrollLeft); 
+position: relative;
+z-index: 10;
+}
+

@@ -1,0 +1,128 @@
+﻿body 
+{
+	margin-top : 20px; 
+    margin-left : 20px; 
+    margin-right : 20px; 
+    color : #000000; 
+    font-family : Verdana; 
+    background-color : White
+}
+A:link 
+{
+    font-weight : normal; 
+    color : #000066; 
+    text-decoration : none;
+}
+
+A:visited 
+{
+    font-weight : normal; 
+    color : #000066; 
+    text-decoration : none;
+}
+
+A:active 
+{
+    font-weight : normal; 
+    text-decoration : none;
+}
+
+A:hover 
+{
+    font-weight : normal; 
+    color : #FF6600; 
+    text-decoration : none
+}
+
+.BannerColumn 
+{
+    background-color : #000000
+}
+
+.Banner 
+{ 
+    border : 0; 
+    padding : 0; 
+    height : 8px; 
+    margin-top : 0px; 
+    color : #ffffff; 
+    filter : progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr='#1c5280',EndColorStr='#FFFFFF');
+}
+
+.BannerTextCompany 
+{
+    font : bold; 
+    font-size : 20px; 
+    color : #cecece; 
+    font-family : Tahoma; 
+    height : 0px; 
+    margin-top : 0; 
+    margin-left : 8px; 
+    margin-bottom : 0; 
+    padding : 0px; 
+    white-space : nowrap; 
+    filter : progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color='black',Positive='true');
+}
+
+.BannerTextApplication 
+{
+    font : bold; 
+    font-size : 14px; 
+    font-family : Tahoma; 
+    height : 0px; 
+    margin-top : 0; 
+    margin-left : 8px; 
+    margin-bottom : 0; 
+    padding : 0px; 
+    white-space : nowrap; 
+    filter : progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color='black',Positive='true');
+}
+
+.BannerText 
+{
+    font : bold; 
+    font-size : 18pt; 
+    font-family : Tahoma; 
+    height : 0px; 
+    margin-top : 0; 
+    margin-left : 8px; 
+    margin-bottom : 0; 
+    padding : 0px; 
+    filter : progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color='black',Positive='true');
+}
+
+.BannerSubhead 
+{
+    border : 0; 
+    padding : 0; 
+    height : 16px; 
+    margin-top : 0px; 
+    margin-left : 10px; 
+    color : #ffffff; 
+    filter : progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr='#4B3E1A',EndColorStr='#FFFFFF');
+}
+
+.fld
+{
+	font-size : 10px; 
+    font-family : Verdana, Arial, Sans-Serif;
+}
+
+.BannerSubheadText 
+{
+    font : bold; 
+    height : 11px; 
+    font-size : 11px; 
+    font-family : Tahoma; 
+    margin-top : 1; 
+    margin-left : 10; 
+    filter : progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color='black',Positive='true');
+}
+
+.sml
+{
+	font-size : 10px;
+	font-family : Verdana, Arial, Sans-Serif;
+	color : Black;
+}
+
